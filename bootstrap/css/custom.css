@@ -1,0 +1,224 @@
+/*map*/
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.wpayment_img{
+    width: 140px;
+    height: 120px;
+}
+.payment_img{
+    width: 150px; 
+    height: 130px;
+}
+
+input[type=text], input[type="email"], input[type="number"],input[type="date"]{
+    width: 90%;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    transition: 0.5s;
+    outline: none; 
+}
+textarea#pickup,#drop{
+    width: 90%;
+    height: 100px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+#Card{
+    background-color: #f8f8f8;
+}
+/*card-title in service*/
+.card-title{
+    color: #0080ff;
+}
+h5{
+    color: #0080ff;
+}
+.about_text{
+    font-size: 150%;
+}
+
+/*font style*/
+@font-face{
+  font-family: lobster;
+  src:url(../../lobster/Lobster-Regular.ttf);
+}
+@font-face{
+  font-family: san;
+  src:url(../../sanchez/Sanchez-Regular.ttf);
+}
+
+/*logo*/
+.logo_img{
+  width: 80px;
+  height: 60px;
+}
+.logo_text{
+  font-family: lobster;
+}
+/*btn*/
+.searchcar{
+    /*margin-top: 100px;
+    margin-left: 130px;*/
+    width: 100%; 
+ background-color: orange;
+ color: white;
+}
+.searchbooking{
+    margin-bottom: 30px;
+    /*margin-top: 100px;*/
+    width: 100%; 
+background-color: red;
+color: white;
+}
+/*car_booking*/
+#car_booking{
+    width: 100%;
+    height: 450px;
+    background-image: url(http://kaungmoncarrental.com/wp-content/uploads/2015/09/highway-side-view-wallpaper-1.jpg?id=1461) !important ;
+}
+/*vehicles img*/
+.vehicle-pointy{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+
+
+/*navbar*/
+.navbar{
+    background-color: black;
+}
+a:hover{
+	color: red !important;
+}
+
+/*parter slide*/
+.slick-slide {
+    margin: 0px 10px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
